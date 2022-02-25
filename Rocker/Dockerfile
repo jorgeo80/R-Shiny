@@ -2,9 +2,6 @@
 
 FROM rocker/verse:latest
 
-# optional:
-MAINTAINER 'jorgeo80' jorgeo80@gmail.com
-
 ## create directories
 RUN mkdir -p /01_data
 RUN mkdir -p /02_code
