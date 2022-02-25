@@ -13,4 +13,4 @@ docker run --rm
 docker run --rm -p 8787:8787 -e USER=Test -e PASSWORD=Test jorgeo80/rocker
 
 ## Para ligar los archivos a la ruta
-docker run --rm -p 8787:8787 -e USER=Test -e PASSWORD=Test -v [ruta]/rstudio:home/Test/folder jorgeo80/rocker
+docker run --rm -p 8787:8787 -e USER=Test -e PASSWORD=Test -v [ruta]/rstudio:/home/Test/ jorgeo80/rocker
