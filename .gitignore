@@ -13,6 +13,9 @@
 
 # Output files from R CMD build
 /*.tar.gz
+/*.tar
+./Rocker/rocker.tar
+Rocker/rocker.tar
 
 # Output files from R CMD check
 /*.Rcheck/
